@@ -2,10 +2,10 @@
 # Efforts By : Rhythm Vats(MAEC1240025)
 
 #Setting the directory
-setwd("C:/r")
+setwd()
 
 #Uploading data
-data<- read_dta("C:/r/cps_00010.dta")
+data<- read_dta("cps_00010.dta")
 View(data)
 #Installing and uploading packages in library
 install.packages("labelled")
